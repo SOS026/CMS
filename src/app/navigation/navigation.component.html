@@ -1,0 +1,29 @@
+<nav class="nav">
+    
+    <!-- <ul>
+       <li><a routerLink="/">Home</a></li>
+       <li><a routerLink="/about">About</a></li>
+       <li><a routerLink="/contact">Contact</a></li>
+       <li><a routerLink="/products">Products</a></li>
+
+       <span style="float: right;"></span>
+         <li (click)="login()"><a>Login</a></li>
+         <li (click)="logout()"><a>Logout</a></li>
+     </ul> -->
+     
+    <ul>
+         <li routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/home"><b>Home</b></a></li>
+         <li routerLinkActive="active-link"><a routerLink="/about"><b>About</b></a></li>
+         <li routerLinkActive="active-link"><a routerLink="/contact"><b>Contact</b></a></li>
+         <li routerLinkActive="active-link"><a routerLink="/customer-form"><b>Customers</b></a></li>
+         <!-- <span style="float: right;"></span> -->
+         <!-- <li id="aa" (click)="login()"><a><b>LogIn</b></a></li> -->
+         <!-- <li id="bb" (click)="logout()"><a><b>LogOut</b></a></li> -->
+    </ul>
+
+    <!-- <button routerLink="cart" class="btn btn-primary"> -->
+     <!-- <i style="font-size: 30px;" class="fas fa-cart-plus"></i> -->
+     <!-- <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div> -->
+    <!-- </button> -->
+    
+</nav>

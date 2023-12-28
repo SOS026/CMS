@@ -1,0 +1,49 @@
+<div class="customer-list">
+
+ 
+    <!-- <div><h2>Product List</h2></div> -->
+    <!-- Product cards with details -->
+  
+    <!-- <div>
+      <button (click)="sortproduct()"> Price</button>
+    </div>
+  
+  
+    <div *ngFor ="let product of sortproducts" class="product-card">
+  
+  
+      <h3>{{ product.title }}</h3>
+  
+       <img class ="Prod" [src]="product.image" alt="{{ product.title }}"  style="width: 100px"/>
+    <p>
+      {{product.price |currency}}
+      {{product.category}}
+      {{product.description}}
+  
+    </p> -->
+  
+  
+  
+    <!-- </div> -->
+  
+  
+  
+    <div *ngFor="let customer of customers" class="customer-card">
+      <!-- Details like title, image, description, price -->
+      <!-- <h3>{{ product.title | uppercase }}</h3> -->
+      <h3>{{ customer.name }}</h3>
+      <!-- <img class ="Prod" [src]="product.image" alt="{{ product.title }}"  style="width: 100px" appImageZoom/> -->
+     
+      <p>{{ customer.age }}</p>
+      <a [routerLink]="['/Customer/', customer.id]">View Details</a>
+      <!-- Button to add the product to the shopping cart -->
+      <!-- <button (click)="addToCart(product)">Add to Cart</button> -->
+  
+      
+    </div>
+
+    
+  </div>
+  
+  
+  

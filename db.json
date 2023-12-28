@@ -1,0 +1,86 @@
+{
+  "customers": [
+    {
+      "Name": "Aneer",
+      "desc": "GTE",
+      "age": "22",
+      "id": 13
+    },
+    {
+      "Name": "Aksh",
+      "desc": "PM",
+      "age": "29",
+      "id": 14
+    },
+    {
+      "Name": "Eti",
+      "desc": "HR",
+      "age": "24",
+      "id": 15
+    },
+    {
+      "Name": "Mannat",
+      "desc": "HR",
+      "age": "27",
+      "id": 16
+    },
+    {
+      "Name": "Tanun",
+      "desc": "Sales Executive",
+      "age": "25",
+      "id": 17
+    },
+    {
+      "Name": "FB",
+      "desc": "FT",
+      "age": "45",
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Yeti",
+      "lastName": "Sinto",
+      "email": "yeti@gmail.com",
+      "mobile": "1112220000"
+    },
+    {
+      "id": 2,
+      "firstName": "Yukta",
+      "lastName": "Simo",
+      "email": "simo@example.com",
+      "mobile": "1113330000"
+    },
+    {
+      "id": 3,
+      "firstName": "Yuri",
+      "lastName": "Masuda",
+      "email": "yuri@gmail.com",
+      "mobile": "1113330077"
+    },
+    {
+      "id": 4,
+      "firstName": "Chintu",
+      "lastName": "Chims",
+      "email": "chintuchims@gmail.com",
+      "mobile": "4443332244"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Setu Anthony",
+      "email": "setu@gmail.com",
+      "password": "setuanthony",
+      "mobile": 1112220000,
+      "id": 1
+    },
+    {
+      "fullname": "Tehan Roy",
+      "email": "tehan@gmail.com",
+      "password": "tehanroy",
+      "mobile": 9990012345,
+      "id": 2
+    }
+  ]
+}

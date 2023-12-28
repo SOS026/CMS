@@ -1,0 +1,50 @@
+{
+  "customers": [
+    {
+      "Name": "Aneer",
+      "desc": "GTE",
+      "age": "22",
+      "id": 13
+    },
+    {
+      "Name": "Aksh",
+      "desc": "PM",
+      "age": "29",
+      "id": 14
+    },
+    {
+      "Name": "Eti",
+      "desc": "HR",
+      "age": "24",
+      "id": 15
+    },
+    {
+      "Name": "Mannat",
+      "desc": "HR",
+      "age": "27",
+      "id": 16
+    },
+    {
+      "Name": "Tanun",
+      "desc": "Sales Executive",
+      "age": "25",
+      "id": 17
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Yeti",
+      "lastName": "Sinto",
+      "email": "john@example.com",
+      "mobile": "1112220000",
+      "salary": "150"
+    },
+    {
+      "firstName": "Yukta",
+      "lastName": "Simo",
+      "email": "simo@example.com",
+      "mobile": "1113330000",
+      "salary": "150"
+    }
+  ]
+}
