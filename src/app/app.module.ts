@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 // import { AuthService } from './auth.service';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { CompComponent } from './comp/comp.component';
 
 
 
@@ -31,7 +32,8 @@ import { SignupComponent } from './signup/signup.component';
     ContactComponent,
     HomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    CompComponent
   ],
   imports: [
     BrowserModule,
